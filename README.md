@@ -1,1 +1,0 @@
-# ajy15.github.io
