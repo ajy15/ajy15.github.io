@@ -2,11 +2,10 @@ name: Deploy Vite to GitHub Pages
 
 on:
   push:
-    branches: [main]  # Or 'master', depending on your default branch
+    branches: main # Or 'master', depending on your default branch
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
     permissions:
       contents: write  # Needed to push to gh-pages
 
